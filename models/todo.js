@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
     }
 
     static async showList() {
-      console.log("My Todo list \n");
+      console.log("My Todo lists \n");
 
       console.log("Overdue");
 
