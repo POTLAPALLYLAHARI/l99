@@ -61,7 +61,7 @@ app.get("/todos/:id", async function (request, response) {
 });
 
 app.post("/todos", async function (request, response) {
-  console.log("creating new todo", request.body);
+  console.log("Creating new todo", request.body);
   try {
     await Todo.addTodo({
       title: request.body.title,
